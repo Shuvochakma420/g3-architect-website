@@ -73,8 +73,33 @@ nav li a {
   border-radius: 8px;
   background: #FF900E;
   border: 0;
+  cursor: pointer;
 }
 
 .banner-img{
   margin-top: 50px;
+}
+
+/* responsive style */
+
+@media screen and (max-width: 576px) {
+  header{
+    padding: 20px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav li{
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width: 960px) {
+  header{
+    padding: 50px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  }
 }
